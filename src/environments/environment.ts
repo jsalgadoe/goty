@@ -4,14 +4,14 @@
 
 export const environment = {
   production: false,
-  url:'http://localhost:5000/graficos-firebase/us-central1',
+  url:'',
   firebaseConfig : {
-    apiKey: "AIzaSyDD9MxPYFWnIRnat3FPDcGtGfvnzIzMHPE",
-    authDomain: "graficos-firebase.firebaseapp.com",
-    projectId: "graficos-firebase",
-    storageBucket: "graficos-firebase.appspot.com",
-    messagingSenderId: "820742273615",
-    appId: "1:820742273615:web:7135d69c76dd953f76083a"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
   }
 };
 
