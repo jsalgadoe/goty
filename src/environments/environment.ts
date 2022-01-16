@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  url:'http://localhost:5000/graficos-firebase/us-central1',
+  firebaseConfig : {
+    apiKey: "AIzaSyDD9MxPYFWnIRnat3FPDcGtGfvnzIzMHPE",
+    authDomain: "graficos-firebase.firebaseapp.com",
+    projectId: "graficos-firebase",
+    storageBucket: "graficos-firebase.appspot.com",
+    messagingSenderId: "820742273615",
+    appId: "1:820742273615:web:7135d69c76dd953f76083a"
+  }
 };
 
 /*
